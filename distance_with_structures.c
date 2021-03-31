@@ -19,6 +19,6 @@ int main()
   scanf(“%f%f”,&a.x,&a.y);
   printf(“Enter the coordinates of the point b:\n”);
   scanf(“%f%f”,&b.x,&b.y);
-  printf(“Distance between a and b:%f”,getdistance(a,b));
+  printf(“Distance between a and b:%If”,getdistance(a,b));
   return 0;
 }
